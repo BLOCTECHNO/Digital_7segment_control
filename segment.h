@@ -29,7 +29,7 @@ class Segment
     int unite (int);
     int dizaine (int);
     void clear_All();
-    void initial(int a = 4, int b = 3  , int c = 2, int d = 6, int e = 5);
+    void Initial(int a = 4, int b = 3  , int c = 2, int d = 6, int e = 5);
     void zero_f();
     void one_f();
     void two_f();

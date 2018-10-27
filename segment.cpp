@@ -27,7 +27,7 @@ default connection
 but you can change it with the function m.initial () in the main program
 after we use it to configure on OUTPUT
 */
-void Segment::initial(int latchPin_, int dataPin_, int clockPin_, int segment1_, int segment2_)
+void Segment::Initial(int latchPin_, int dataPin_, int clockPin_, int segment1_, int segment2_)
 {
   latchPin = latchPin_;
   clockPin = dataPin_;

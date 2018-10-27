@@ -27,8 +27,8 @@ void setup()
   //he have 2 syntax available
   //m.initial(); default connection
   //m.initial(4,3,2,6,5); use the pin of your choice
-  
-  m.initial(4,3,2,6,5);
+
+  m.Initial(4,3,2,6,5);
   Serial.begin(9600);
   while (! Serial); // serial communication
   Serial.println("ready send value 0 and 9");
