@@ -13,24 +13,23 @@ class Segment
 
     byte leds = 0;
 
-    byte zero =  B11111100;
-    byte one  =  B01100000;
-    byte two  =  B11011010;
-    byte tree =  B11110010;
-    byte four =  B01100110;
-    byte five =  B10110110;
-    byte six  =  B10111110;
-    byte seven = B11100000;
-    byte eight = B11111110;
-    byte nine  = B11110110;
-    byte point = B00000001;
+    byte zero  =  B11111100;
+    byte one   =  B01100000;
+    byte two   =  B11011010;
+    byte tree  =  B11110010;
+    byte four  =  B01100110;
+    byte five  =  B10110110;
+    byte six   =  B10111110;
+    byte seven =  B11100000;
+    byte eight =  B11111110;
+    byte nine  =  B11110110;
+    byte point =  B00000001;
 
 
     int unite (int);
     int dizaine (int);
     void clear_All();
     void initial(int a = 4, int b = 3  , int c = 2, int d = 6, int e = 5);
-    void nSegment(int);
     void zero_f();
     void one_f();
     void two_f();
