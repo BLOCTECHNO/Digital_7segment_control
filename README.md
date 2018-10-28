@@ -8,7 +8,7 @@ you need to download [.zip file](https://github.com/BLOCTECHNO/Digital_7segment_
 ----
 ### schema
 
-				default connection
+		default connection
 
 	(74hc595n) latchPin -> 4 (arduino)
    	(74hc595n) clockPin -> 3 (arduino)
@@ -17,11 +17,11 @@ you need to download [.zip file](https://github.com/BLOCTECHNO/Digital_7segment_
    	(74hc595n) segment2 -> 5 (arduino)
 
 #### Examples
-2digital_7segment_bb
+2digital_7segment
 ![2digital_7segment_bb](img/2digital_7segment_bb.png)
 
-analog_print_value_bb
-![analog_print_value_bb](img/analog_print_value_bb.png)
+analog_print_value
+![analog_print_value_](img/analog_print_value_bb.png)
 
 ----
 ### for using
