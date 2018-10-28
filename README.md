@@ -7,11 +7,10 @@ you need to download [.zip file](https://github.com/BLOCTECHNO/Digital_7segment_
 
 ----
 ### schema
-![fritzing](img/2digital_7segment_bb.png)
 
 				default connection
 
-	  (74hc595n) latchPin -> 4 (arduino)
+	(74hc595n) latchPin -> 4 (arduino)
    	(74hc595n) clockPin -> 3 (arduino)
    	(74hc595n) dataPin  -> 2 (arduino)
    	(74hc595n) segment1 -> 6 (arduino)
