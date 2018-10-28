@@ -1,8 +1,8 @@
 # 2digital 7segment control with 74hc595n 
 
 here is a library that allows you to control 1 digital or 2digital 7segment with a 74hc595
+you need to download [.zip file](https://github.com/BLOCTECHNO/Digital_7segment_control/archive/master.zip) library and add on arduino
 
-you need to download .zip file library and add on arduino
 ![add library on arduino](img/add_lib.png)
 
 ----
