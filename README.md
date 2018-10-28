@@ -17,7 +17,7 @@ you need to download [.zip file](https://github.com/BLOCTECHNO/Digital_7segment_
    	(74hc595n) segment2 -> 5 (arduino)
 
 #### Examples
-2digital_7segment
+2digital_7segment send value on serial monitor
 ![2digital_7segment_bb](img/2digital_7segment_bb.png)
 
 analog_print_value
@@ -75,7 +75,9 @@ analog_print_value
 ### Contribute
 we invite all people to contribute and improve this library
 
-[by Bloctechno](contact@bloctechno.ovh)
+[Email](contact@bloctechno.ovh)
 [facebook](https://facebook.com/bloctechno)
 [instagram](https://instagram.com/bloctechno)
 [youtube](https://www.youtube.com/user/ThePipa00/videos)
+
+by bloc techno
