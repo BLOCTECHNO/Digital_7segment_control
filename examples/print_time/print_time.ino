@@ -24,8 +24,8 @@ Segment m; //Create new instance
 String saisie; // variable to read value on serial monitor
 int saisie_convert; // variable to convert string to int
 
-int hour = 12;
-int minute = 54;
+int hour_s = 12;
+int minutes_s = 54;
 
 void setup()
 {
@@ -45,13 +45,13 @@ void loop()
   //this condition is for Hour
   for (int i=0; i<100; i++)
     {
-      m.screen(hour); // print 12 H
+      m.screen(hour_s); // print 12 H
     }
 
   //this condition is for minute
   for (int i=0; i<100; i++)
     {
-      m.screen(minutes);
+      m.screen(minutes_s);
       m.screenPoint(2); // this fonction allow you to turn on segment point
     }
 }
