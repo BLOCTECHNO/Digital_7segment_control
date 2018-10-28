@@ -1,4 +1,4 @@
-#**2digital 7segment control with 74hc595n **
+# 2digital 7segment control with 74hc595n 
 
 here is a library that allows you to control 1 digital or 2digital 7segment with a 74hc595
 
