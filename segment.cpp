@@ -246,6 +246,23 @@ void Segment::screen(int saisie_convert)
   delay(7);
 }
 
+void Segment::screenPoint(int y)
+{
+  if (y == 1)
+  {
+    segment_1_run();
+    point_f();
+    delay(7);
+  }
+  else if (y == 2)
+  {
+    segment_2_run();
+    point_f();
+    delay(7);
+  }
+
+}
+
 /*-------------------------------------------------------------------------------------------------*/
 //functon allow to apply value on digital segment
 void Segment::updateShiftRegister()

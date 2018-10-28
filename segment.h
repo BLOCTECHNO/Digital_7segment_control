@@ -44,6 +44,7 @@ class Segment
     void segment_1_run();
     void segment_2_run();
     void screen(int);
+    void screenPoint(int);
     void updateShiftRegister();
 
 };

@@ -7,11 +7,10 @@ you need to download .zip file library and add on arduino
 
 ----
 ### schema
-![fritzing](img/2digital_7segment_bb.png)
 
 				default connection
 
-	  (74hc595n) latchPin -> 4 (arduino)
+	(74hc595n) latchPin -> 4 (arduino)
    	(74hc595n) clockPin -> 3 (arduino)
    	(74hc595n) dataPin  -> 2 (arduino)
    	(74hc595n) segment1 -> 6 (arduino)
@@ -62,6 +61,11 @@ analog_print_value_bb
    m.clear_All (); => to disable all segments
 
    m.screen (parameter); => function to display the parameter you gave, it is only partisan integer (int) if you have another variable convert it to int
+
+
+	 to turn on point segment you have one functon screenPoint(parameter);
+	 on parameter give "1" to turn on point segment of first digital segment
+	 on parameter give "2" to turn on point segment of second digital segment
 
 
   you can look at examples sketch on your files library
